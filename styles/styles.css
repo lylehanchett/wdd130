@@ -23,6 +23,7 @@ main img {
 
 main {
     width: auto;
+    max-width: auto;
 }
 
 p {
