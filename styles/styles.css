@@ -59,8 +59,9 @@ aside img {
 }
 
 aside h2 {
-    position: absolute;
-    left: 100px;
+    position: relative;
+    top: 30px;
+    right: 5px;
 }
 footer {
     margin-top: 15px;
