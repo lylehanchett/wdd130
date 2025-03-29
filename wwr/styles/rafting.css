@@ -17,6 +17,25 @@
     font-style: normal;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo takes auto width, nav fills remaining space */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px;
+    background-color: var(--primary-color)
+}
+
+header img {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    gap: 20px; /* Space between links */
+}
+
 nav a {
     color: var(--accent2-color);
     font-size: 1.2rem;
@@ -113,4 +132,55 @@ p {
     .hero article img {
         float: none;
     }
+}
+.history {
+    text-align: center ;
+}
+
+.history h2 {
+    grid-column: span 3; 
+    text-align: center;
+    font-size: 40px;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 500px) 1fr; 
+    align-items: center;
+    gap: 20px; 
+    max-width: 100%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.history-grid img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 20px;
+}
+
+.adventure {
+    text-align: center;
+}
+
+.adventure h2 {    
+    text-align: center;
+    font-size: 40px;
+}
+
+.adventure figure {
+    display: inline-block; 
+    margin: 10px;
+    text-align: center;
+}
+
+.adventure img {
+    width: 100%; 
+    max-width: 300px; 
+    border-radius: 10px;
+}
+
+.adventure figcaption {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px;
 }
