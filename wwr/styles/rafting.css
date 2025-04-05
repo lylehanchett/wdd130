@@ -358,8 +358,8 @@ footer {
     padding: 12px 30px;
     border: none;
     border-radius: 8px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #005dc0;
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     cursor: pointer;
     transition: background 0.3s ease;
