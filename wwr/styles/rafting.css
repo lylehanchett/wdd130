@@ -237,6 +237,12 @@ footer {
         text-align: right;
     }
 
+.map-container iframe {
+    width: 400px;
+    height:300px;
+    border: none;
+}
+
 .employees {
     display: grid;
     align-items: center;
